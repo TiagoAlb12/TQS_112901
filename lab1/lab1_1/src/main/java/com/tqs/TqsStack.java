@@ -42,4 +42,16 @@ public class TqsStack<T> {
     public boolean isEmpty() {
         return elements.isEmpty();
     }
+
+    public T popTopN(int n) {
+        if (n <= 0 || n > elements.size()) {
+            throw new IllegalArgumentException("Invalid number of elements to pop");
+        }
+
+        T top = null;
+        for (int i = 0; i < n; i++) {
+            top = elements.removeFirst();
+        }
+        return top;
+    }
 }
