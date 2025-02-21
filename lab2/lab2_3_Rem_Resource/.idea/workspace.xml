@@ -1,4 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95af4106-1177-4f84-933b-b59aadead440" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/src/main/java/com/tqs/ISimpleHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/src/main/java/com/tqs/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/src/main/java/com/tqs/ProductFinderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/src/test/java/com/tqs/ProductFinderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tqs/SimpleHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tqs/ProductFinderServiceITtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/src/main/java/com/tqs/TqsStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/src/test/java/com/tqs/TqsStackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/prints/1_2_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/main/java/tqs/DemoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/main/java/tqs/euromillions/CuponEuromillions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/main/java/tqs/euromillions/Dip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/main/java/tqs/euromillions/EuromillionsDraw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/main/java/tqs/overview.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/main/java/tqs/sets/BoundedSetOfNaturals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/test/java/tqs/euromillions/DipTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/test/java/tqs/euromillions/EuromillionsDrawTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/test/java/tqs/sets/BoundedSetOfNaturalsTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2tMV1AvFbyFDtawG0K8z3pbagyE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tqs" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95af4106-1177-4f84-933b-b59aadead440" name="Changes" comment="" />
+      <created>1740161713529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740161713529</updated>
+      <workItem from="1740161714138" duration="807000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

@@ -10,7 +10,7 @@ public class ProductFinderServiceITtest {
 
     @Test
     public void testFindProductDetails_ValidId() {
-        ISimpleHttpClient httpClient = new SimpleHttpClient();
+        ISimpleHttpClient httpClient = (ISimpleHttpClient) new SimpleHttpClient();
         ProductFinderService productFinderService = new ProductFinderService(httpClient);
 
         Optional<Product> product = productFinderService.findProductDetails(3);
@@ -22,7 +22,7 @@ public class ProductFinderServiceITtest {
 
     @Test
     public void testFindProductDetails_InvalidId() {
-        ISimpleHttpClient httpClient = new SimpleHttpClient();
+        ISimpleHttpClient httpClient = (ISimpleHttpClient) new SimpleHttpClient();
         ProductFinderService productFinderService = new ProductFinderService(httpClient);
 
         Optional<Product> product = productFinderService.findProductDetails(300);
