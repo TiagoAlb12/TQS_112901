@@ -5,25 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95af4106-1177-4f84-933b-b59aadead440" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/src/main/java/com/tqs/ISimpleHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/src/main/java/com/tqs/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/src/main/java/com/tqs/ProductFinderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab2_2_Conversion/src/test/java/com/tqs/ProductFinderServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tqs/SimpleHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tqs/ProductFinderServiceITtest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1/lab1_1/.idea/misc.xml" beforeDir="false" />
@@ -50,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/test/java/tqs/euromillions/DipTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/test/java/tqs/euromillions/EuromillionsDrawTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1/lab1_2/src/test/java/tqs/sets/BoundedSetOfNaturalsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,29 +48,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2tMV1AvFbyFDtawG0K8z3pbagyE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.tqs" />
@@ -110,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740161713529</updated>
-      <workItem from="1740161714138" duration="807000" />
+      <workItem from="1740161714138" duration="1261000" />
+      <workItem from="1740481072085" duration="3000" />
     </task>
     <servers />
   </component>
