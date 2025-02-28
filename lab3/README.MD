@@ -27,7 +27,7 @@ Através de diferentes testes, garantimos a **correta comunicação entre as cam
 
 ---
 
-##Executar os Testes
+## Executar os Testes
 Para executar os testes, no exercicio 3.3, temos de iniciar o **docker-compose**, executando ```docker compose up d-```. Podemos verificar se está up com ```docker compose ps -a```. 
 Executamos os testes como normalmente: ```mvn clean``` seguido de ```mvn test```.
 No fim, executamos ```docker compose down -v```.
