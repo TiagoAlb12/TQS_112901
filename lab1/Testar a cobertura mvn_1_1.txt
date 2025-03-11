@@ -1,0 +1,6 @@
+Testar a cobertura:
+mvn clean test jacoco:report
+
+
+Relatorio no diretorio:
+target/site/jacoco/index.html
