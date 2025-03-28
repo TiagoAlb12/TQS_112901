@@ -1,0 +1,23 @@
+
+Exercício 7_1_d)_2):
+
+_____________________________________________________________________________________________
+
+How long did the API call take?
+    - Média: 121,33ms;
+
+    - Mínimo: 121,33ms;
+
+    - Máximo: 121,33ms O tempo de resposta foi constante, sem variações.
+
+_____________________________________________________________________________________________
+
+How many requests were made?
+
+    - Requisições realizadas: 1 requisição.
+
+_____________________________________________________________________________________________
+
+How many requests failed?
+
+    - Falhas: Nenhuma, a taxa de falhas foi de 0%.

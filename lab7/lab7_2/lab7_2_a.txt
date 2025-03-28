@@ -1,0 +1,24 @@
+Exercício 7_1_d)_2):
+
+____________________________________________________________________________________________
+
+How long did the API calls take on average, minimum and maximum?
+
+    - Média: 171,18ms
+
+    - Mínimo: 8,33ms
+
+    - Máximo: 786,64ms
+    
+____________________________________________________________________________________________   
+
+How many requests were made?
+
+    - Total de requisições: 1777
+    
+____________________________________________________________________________________________    
+How many requests failed? (i.e., whose HTTP status code was not 200)
+
+    - Falhas: Nenhuma requisição falhou. A taxa de falhas é de 0%, com 0 falhas em 1777 requisições.
+    
+____________________________________________________________________________________________    
