@@ -23,6 +23,10 @@ public class CarManagerService {
     }
 
     public Optional<Car> getCarDetails(Long carId) {
-        return Optional.ofNullable(carRepository.findByCarId(carId));
+        return carRepository.findById(carId);
+    }
+
+    public void delete(Long carId) {
+        carRepository.deleteById(carId);
     }
 }

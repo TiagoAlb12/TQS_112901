@@ -41,7 +41,7 @@ class CarServiceTest {
     @Test
     void whenValidId_thenReturnCar() {
         Car car = new Car("Ford", "Focus");
-        when(carRepository.findByCarId(1L)).thenReturn(car);
+        when(carRepository.findById(1L)).thenReturn(Optional.of(car));
 
         Optional<Car> found = carService.getCarDetails(1L);
 
@@ -49,5 +49,3 @@ class CarServiceTest {
         assertThat(found.get().getModel()).isEqualTo("Focus");
     }
 }
-
-

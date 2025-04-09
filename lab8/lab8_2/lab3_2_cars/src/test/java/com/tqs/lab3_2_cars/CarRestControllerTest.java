@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
-@TestPropertySource(locations = "classpath:application.properties")
+@TestPropertySource(locations = "classpath:application-test.properties")
 class CarRestControllerTest {
 
     @Autowired
@@ -64,4 +64,31 @@ class CarRestControllerTest {
         assertThat(cars).hasSize(1);
         assertThat(cars.get(0).getMaker()).isEqualTo("Ford");
     }
+
+    @Test
+    void whenPutCar_thenCarIsUpdated() throws Exception {
+        Car existingCar = new Car("Ford", "Focus");
+        carRepository.save(existingCar);
+
+        existingCar.setMaker("Ford Updated");
+
+        mvc.perform(MockMvcRequestBuilders.put("/api/cars/{id}", existingCar.getCarId())
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(new ObjectMapper().writeValueAsString(existingCar)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.maker", is("Ford Updated")));
+    }
+
+    @Test
+    void whenDeleteCar_thenCarIsDeleted() throws Exception {
+        Car car = new Car("Toyota", "Camry");
+        carRepository.save(car);
+
+        mvc.perform(MockMvcRequestBuilders.delete("/api/cars/{id}", car.getCarId()))
+                .andExpect(status().isNoContent());
+
+        List<Car> cars = carRepository.findAll();
+        assertThat(cars).isEmpty();
+    }
+
 }

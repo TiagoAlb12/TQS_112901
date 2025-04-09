@@ -31,4 +31,28 @@ public class CarController {
         Optional<Car> car = carManagerService.getCarDetails(id);
         return car.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
+
+    // Endpoint PUT para atualizar um carro
+    @PutMapping("/{id}")
+    public ResponseEntity<Car> updateCar(@PathVariable Long id, @RequestBody Car carDetails) {
+        Optional<Car> carOptional = carManagerService.getCarDetails(id);
+        if (carOptional.isPresent()) {
+            Car car = carOptional.get();
+            car.setMaker(carDetails.getMaker());
+            car.setModel(carDetails.getModel());
+            return ResponseEntity.ok(carManagerService.save(car));  // Salva o carro atualizado
+        }
+        return ResponseEntity.notFound().build(); // Retorna 404 se o carro não for encontrado
+    }
+
+    // Endpoint DELETE para excluir um carro
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteCar(@PathVariable Long id) {
+        Optional<Car> carOptional = carManagerService.getCarDetails(id);
+        if (carOptional.isPresent()) {
+            carManagerService.delete(id);  // Método de exclusão no serviço
+            return ResponseEntity.noContent().build(); // Retorna 204 No Content se o carro for deletado
+        }
+        return ResponseEntity.notFound().build(); // Retorna 404 se o carro não for encontrado
+    }
 }
