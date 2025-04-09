@@ -1,0 +1,9 @@
+Token:
+
+Analyze "Cars": sqp_0e581eb25c976eff95e77d722d2103c9d2bf81d8
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=Cars \
+  -Dsonar.projectName='Cars' \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=sqp_0e581eb25c976eff95e77d722d2103c9d2bf81d8

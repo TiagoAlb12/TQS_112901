@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql-tqs
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: demo
+      MYSQL_DATABASE: tqsdemo
+      MYSQL_USER: demo
+      MYSQL_PASSWORD: demo
+    ports:
+      - "33060:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

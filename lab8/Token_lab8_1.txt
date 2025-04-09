@@ -1,0 +1,12 @@
+Token
+
+Analyze "EuroMillions": sqp_774495720baf19c798a7787db4c1dfc0fcc76b56
+
+
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=EuroMillions \
+  -Dsonar.projectName='EuroMillions' \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=sqp_774495720baf19c798a7787db4c1dfc0fcc76b56
+
