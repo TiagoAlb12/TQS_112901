@@ -1,0 +1,184 @@
+.restaurant-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.restaurant-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.restaurant-page select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 0.8rem;
+}
+
+.meals-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.meal-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meals-table {
+    width: 300px;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meals-table th,
+.meals-table td {
+    padding: 1rem 2rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.meals-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.meals-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.meals-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.weather-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.weather-content h3 {
+    margin-top: 0;
+}
+
+.weather-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.reservation-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(46, 46, 46, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.reservation-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(66, 66, 66, 0.3);
+    min-width: 300px;
+}
+
+.reservation-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.cancel-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin: 2rem 0;
+}
+
+.page-header h2 {
+    text-align: center;
+    flex: 1;
+}
+
+.page-header .reservation-button {
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-bottom: 1.5rem;
+    margin: 2rem 0;
+}
+
+.divider {
+    border-bottom: 1px solid #ccc;
+    margin: 0.8rem 0;
+    margin-bottom: 10px;
+}

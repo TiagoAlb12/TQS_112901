@@ -1,0 +1,12 @@
+token - MealBooking: sqp_d761715bd91b4faa439a15d679822dbb4928e92b
+
+
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=MealBooking \
+  -Dsonar.projectName='MealBooking' \
+  -Dsonar.host.url=http://127.0.0.1:9000 \
+  -Dsonar.token=sqp_d761715bd91b4faa439a15d679822dbb4928e92b
+
+
+mvn clean verify sonar:sonar -Dsonar.token=sqp_d761715bd91b4faa439a15d679822dbb4928e92b

@@ -1,0 +1,125 @@
+.reservation-list-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.reservation-list-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.reservations-table th,
+.reservations-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.reservations-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.reservations-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.reservations-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.cancel-reservation-btn {
+    background-color: #d9534f;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.back-button .button {
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-bottom: 1.5rem;
+    margin: 2rem 0;
+}
+
+.cancel-button {
+    background-color: #d9534f;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-bottom: 1.5rem;
+    margin: 2rem 0;
+}
+
+.reservation-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(46, 46, 46, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.reservation-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(66, 66, 66, 0.3);
+    min-width: 300px;
+}
+
+.reservation-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.token-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
